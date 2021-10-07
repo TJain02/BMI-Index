@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #111827;
+    --light-indigo:#A7F3D0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+
+body{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding:2rem 2rem 2rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--light-indigo);
+    font-family: 'Encode Sans', sans-serif;
+    font-size: larger;
+    width:auto;
+    border: solid;
+}
+    h1 {
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    display: block;
+    width: 10%;
+    margin-left :32.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding :0.2rem;
+    background-color: transparent;
+    color: var(--light-indigo);
+    border-color: snow;
+    font-size: large;
+    border-style: outset ;
+    border-radius: 0.5rem;
+    }
+
+label{
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding :0.2rem;
+    }
+
+#bmi-calculate{
+    display: block;
+    margin-left: 32rem;
+    font-family: 'Encode Sans', sans-serif;
+    background-color: transparent;
+    color: var(--light-indigo);
+    padding:1rem;
+    font-size: large;
+    border-radius: 1vw;
+    border-color: snow;
+    cursor: pointer;
+    }
+
+#output{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
